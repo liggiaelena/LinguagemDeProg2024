@@ -9,6 +9,83 @@
     <title>Document</title>
 </head>
 <body>
+    <form action="https://www.w3schools.com/action_page.php" method="post">
+        <input type="date" name="" value="data">
+        <br></br>
+        <label>Dados de Acesso:</label>	
+        <br></br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" value="" placeholder="">
+        
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha">
+        <br></br>
+
+        <label>Dados Pessoais:</label>
+        <br></br>
+        <label for="nome" maxlength="30">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="">
+        
+        <label for="Endereço">Endereço:</label>
+        <textarea type="text" id="endereco" name="endereco" placeholder=""></textarea>
+        
+        <label for="Numero">Numero:</label>
+        <input type="number" id="numero" name="numero" placeholder="">
+        
+        <label for="complemento">Complemento:</label>
+        <input type="text" id="complemento" name="complemento" placeholder="">
+        <br></br>
+        <label for="cidade">Cidade:</label>
+        <input list="cidade" name="cidade" />
+            <datalist id="cidade" size="3">
+                <select>
+                    <option value="Sorocaba"></option>
+                    <option value="Itu"></option>
+                    <option value="Indaiatuba"></option>
+                    <option value="Votorantim"></option>
+                    <option value="Salto"></option>
+                </select>
+            </datalist>
+
+        <label for="estado">Estado:</label>
+            <select id="estado" name="estado">
+                <option value="SP">SP</option>
+                <option value="RJ">RJ</option>
+                <option value="ES">ES</option>
+                <option value="MG">MG</option>
+            </select>
+        
+        <label for="complemento">Cep:</label>
+        <input type="number" name="cep" id="cep">
+        <br></br>
+        <label>Gênero:</label>
+        <input type="radio" id="1" name="genero" value="valor3">
+        <label for="1">Masculino</label>
+        <input type="radio" id="2" name="genero" value="valor2">
+        <label for="2">Feminino</label>
+        <input type="radio" id="3" name="genero" value="valor3">
+        <label for="3">Prefiro não falar</label>
+        <br></br>
     
+        <label for="hey">Curso:</label>
+        <select name="select" id="3">
+            <option value="fabio">ADS</option>
+            <option value="felipe">Jogos</option>
+            <option value="felipe">Gestão de TI</option>
+            <option value="felipe">Banco de dados</option>
+        </select>
+        <br></br>
+        <label>Modelo:</label>
+        <input type="radio" id="1" name="modelo" value="Presencial">
+        <label for="1">Presencial</label>
+        <input type="radio" id="2" name="modelo" value="EAD">
+        <label for="2">EAD</label>
+        <input type="radio" id="3" name="modelo" value="Semi presencia">
+        <label for="3">Semi presencial</label>
+        <br></br>
+
+        <input type="submit">
+    </form>
+    <!-- <button onclick="alert('oi')">eu</button> -->
 </body>
 </html>
