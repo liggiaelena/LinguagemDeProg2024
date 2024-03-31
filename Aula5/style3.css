@@ -1,0 +1,89 @@
+/* - - - - - - TOPO - - - - - -  */
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(244, 241, 241);
+}
+
+#all{
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    height: 100vh;
+    width: 100%;
+}
+.topo{
+    width: 100%;
+    height: 54px;
+    position: fixed;
+    top:0px;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: royalblue;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.topo h1{
+    color: aliceblue;
+    font-size: 28px;
+    font-family: "Roboto", sans-serif;
+}
+
+.menu{
+    width: 100%;
+    padding: 10px;
+    margin-top: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:rgb(196, 208, 229);
+}
+
+.pagina{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+.pagina img{
+    height: 240px;
+}
+
+.pagina p{
+    margin-left: 10px;
+}
+
+.container{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50%;
+}
+
+.coluna{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: block;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(103, 104, 106);
+}
