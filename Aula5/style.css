@@ -1,0 +1,30 @@
+@font-face {
+    src: url(fontes/Roboto-Medium.ttf);
+    font-family: "Roboto-Medium";
+    font-weight: normal;
+  }
+
+body{
+    background-color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    color: rgb(25, 0, 117);
+    font-family: "Roboto-Medium";
+    font-size: 30px;
+}
+
+label{
+    color: aqua;
+}
+
+.minhaclasse{
+    background-color: black;
+}
+
+.imgstyle{
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 2%;
+}
