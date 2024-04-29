@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -7,24 +5,24 @@
 }
 
 body {
-    font-family: "Press Start 2P", system-ui;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(45deg, rgb(0, 255, 208), rgb(0, 173, 247));
+    background: #ffffff;
 }
 
 .calculadora {
     padding: 20px;
     border-radius: 50px;
-    background: rgb(235, 10, 193);
-    box-shadow: 0px 3px 15px rgb(4, 4, 4);
+    background: gray;
+    box-shadow: 0px 1px 5px rgb(4, 4, 4);
 }
 
 input {
-    width: 320px;
+    width: 340px;
     border: none;
     padding: 24px;
     margin: 10px;
@@ -35,7 +33,7 @@ input {
     text-align: right;
     text-align: right;
     cursor: pointer;
-    font-family: "Press Start 2P", system-ui;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 input::placeholder {
@@ -51,9 +49,9 @@ button {
     background: transparent;
     color: #ffffff;
     font-size: 20px;
-    box-shadow: -4px -4px 10px rgb(0, 0, 0);
+    box-shadow: -2px -2px 5px rgb(0, 0, 0);
     cursor: pointer;
-    font-family: "Press Start 2P", system-ui;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .botaoigual {
@@ -65,11 +63,11 @@ button {
 
 .operador {
     font-size: 20px;
-    color: rgb(17, 9, 9);
+    color: black;
 }
 
 .botaomaior {
     font: 30px;
     font-weight: 600;
-    color: rgb(17, 9, 9);
+    color:black;
 }
