@@ -22,7 +22,7 @@ body {
 }
 
 input {
-    width: 340px;
+    width: 370px;
     border: none;
     padding: 24px;
     margin: 10px;
@@ -43,14 +43,14 @@ input::placeholder {
 
 button {
     border: 0;
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 50px;
     margin: 10px;
     border-radius: 8px;
-    background: transparent;
-    color: #ffffff;
+    background:white ;
+    color: black;
     font-size: 20px;
-    box-shadow: -2px -2px 5px rgb(0, 0, 0);
+    
     cursor: pointer;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
