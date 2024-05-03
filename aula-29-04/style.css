@@ -1,0 +1,31 @@
+body {
+    background-color: #3498db; /* Azul */
+    color: #fff; /* Cor do texto branco */
+    font-family: Arial, sans-serif; /* Fonte do texto */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center; /* Centralizar o título */
+    margin-top: 30px; /* Espaçamento superior */
+}
+
+#lista-animais {
+    list-style-type: none; /* Remover marcadores de lista */
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: #2980b9; /* Azul escuro para os itens da lista */
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px; /* Cantos arredondados */
+}
+
+.caixa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
